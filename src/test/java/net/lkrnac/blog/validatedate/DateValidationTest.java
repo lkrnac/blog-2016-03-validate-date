@@ -27,7 +27,7 @@ public class DateValidationTest {
     }
 
     @Test
-    public void validateInstant() {
+    public void validateZonedDateTime() {
         //GIVEN
         ZonedDateTime expectedDateTime = ZonedDateTime.of(2016, 3, 20, 13, 3, 0, 0, ZoneId.of("GMT+1"));
 
