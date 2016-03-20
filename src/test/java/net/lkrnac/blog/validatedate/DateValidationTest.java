@@ -38,6 +38,7 @@ public class DateValidationTest {
         assertThat(actualDateTime, ZonedDateTimeMatchers.sameDay(expectedDateTime));
         assertThat(actualDateTime, ZonedDateTimeMatchers.after(expectedDateTime));
         assertThat(actualDateTime, ZonedDateTimeMatchers.isSunday());
+        assertThat(actualDateTime, ZonedDateTimeMatchers.isMarch());
     }
 
     @Test
