@@ -13,11 +13,6 @@ import java.util.Date;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 
-/**
- * Created by: Lubos Krnac
- * For: Dotsub LLC.
- * Date: 2016-03-19.
- */
 public class DateValidationTest {
     @Test
     public void validateDateTime() {
